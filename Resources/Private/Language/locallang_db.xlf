@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:generate_pdf_with_dompdf/Resources/Private/Language/locallang_db" date="2023-05-19T13:34:38Z" product-name="generate_pdf_with_dompdf">
+		<header/>
+		<body>
+			<trans-unit id="plugin_generate_pdf_with_dompdf.name" resname="plugin_generate_pdf_with_dompdf.name">
+				<source>Generate PDF</source>
+			</trans-unit>
+			<trans-unit id="plugin_generate_pdf_with_dompdf.description" resname="plugin_generate_pdf_with_dompdf.description">
+				<source>Generates a PDF file with Dompdf</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

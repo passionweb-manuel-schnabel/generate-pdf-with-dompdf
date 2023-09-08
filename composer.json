@@ -1,0 +1,32 @@
+{
+  "name": "passionweb/generate-pdf-with-dompdf",
+  "license": "GPL-3.0",
+  "description": "Simple way to generate a pdf file with the use of Dompdf (TYPO3 CMS)",
+  "type": "typo3-cms-extension",
+  "homepage": "https://www.passionweb.de",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Manuel Schnabel",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "typo3/cms-core": "^11.5 | ^12.4",
+    "dompdf/dompdf": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Passionweb\\GeneratePdfWithDompdf\\": "Classes/"
+    }
+  },
+  "replace": {
+      "typo3-ter/generate-pdf-with-dompdf": "self.version"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "generate_pdf_with_dompdf"
+    }
+  }
+}
